@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vkL-8W-bGw">
+            <objects>
+                <tabBarController id="Wry-Wd-3Oy" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jlf-sn-SzM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="U3w-YG-5xF" kind="relationship" relationship="viewControllers" id="fSd-ub-zfh"/>
+                        <segue destination="27R-N0-ln7" kind="relationship" relationship="viewControllers" id="rgO-L1-WA4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N9A-bG-Ebg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-321" y="107"/>
+        </scene>
+        <!--Materi-->
+        <scene sceneID="rvJ-OM-57k">
+            <objects>
+                <navigationController id="U3w-YG-5xF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Materi" id="56p-N1-Bi5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5OC-yY-wZh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Xv-MG-a5f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906" y="836"/>
+        </scene>
+        <!--Ikhtisar-->
+        <scene sceneID="HWS-TM-FXS">
+            <objects>
+                <navigationController id="27R-N0-ln7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ikhtisar" id="wYg-X9-vBb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IBj-In-TuM">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxK-cf-yi8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262" y="836"/>
+        </scene>
+    </scenes>
+</document>

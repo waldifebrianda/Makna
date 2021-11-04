@@ -59,12 +59,36 @@
 				9E0D62C8272FDE140063FE4E /* AppDelegate.swift */,
 				9E0D62CA272FDE140063FE4E /* SceneDelegate.swift */,
 				9E0D62CC272FDE140063FE4E /* ViewController.swift */,
+				9E93DA8F2734130200739943 /* Views */,
+				9E93DA8C273412CB00739943 /* Controllers */,
+				9E93DA8D273412E200739943 /* Models */,
 				9E0D62CE272FDE140063FE4E /* Main.storyboard */,
 				9E0D62D1272FDE160063FE4E /* Assets.xcassets */,
 				9E0D62D3272FDE160063FE4E /* LaunchScreen.storyboard */,
 				9E0D62D6272FDE160063FE4E /* Info.plist */,
 			);
 			path = Makna;
+			sourceTree = "<group>";
+		};
+		9E93DA8C273412CB00739943 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9E93DA8D273412E200739943 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E93DA8F2734130200739943 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
